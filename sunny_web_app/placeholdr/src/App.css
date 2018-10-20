@@ -39,28 +39,44 @@
 
 .element-content {
   top: 10vh;
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: lightcyan;
+}
+
+/* ELEMENT LIST */
+
+.element-list{
+  display: block;
+  background: grey;
+  width: 100%;
+  height: 100vh;
+  padding: 20px 10px;
+}
+
+.element-list-item li{
+  display: block;
+  padding: 10px;
+  color: black;
+  font-size: 1em;
+
+}
+
+.element-list-item li:hover{
+  background-color: lightgray;
+  color:#281c40;
+  -webkit-transition-duration: 0.4s; /* For Safari */
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* ELEMENT DETAIL */
+
+.element-detail{
+  display: block;
+  background: black;
+  float: right;
 }
 
 /* RESPONSIVE SETTINGS */
 
-@media screen and (max-width: 991px) {
-  /* start of large tablet styles */
-  .App-header{
-    float: center;
-  }
-  .LOGO{
-    float:center;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  /* start of medium tablet styles */
-
-}
-
-@media screen and (max-width: 479px) {
-  /* start of phone styles */
-
-}

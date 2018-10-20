@@ -8,7 +8,7 @@ class Header extends Component
     {
       return (
           <div className="App-header">
-            <img className="LOGO" src={logo} height="50"/>
+            <img className="LOGO" src={logo} alt="lol.jpeg"/>
             <div className="Name">PlaceHoldr</div>
           </div>
       );

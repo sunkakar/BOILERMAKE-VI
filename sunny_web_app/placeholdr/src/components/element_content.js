@@ -8,7 +8,12 @@ class ElementContent extends Component
     {
       return (
           <div className="element-content">
-            <ElementList/><ElementDetail/>
+            <div className="element-list">
+              <ElementList/>
+            </div>
+            <div className="element-detail">
+              <ElementDetail/>
+            </div>
           </div>
       );
     }
