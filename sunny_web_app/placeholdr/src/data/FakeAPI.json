@@ -9,11 +9,7 @@
         "MoveInDate":"08/01/2018",
         "Duration":12,
         "Car":false,
-<<<<<<< HEAD
-        "Address": "1234 Happy St."
-=======
         "Address":"Walnut Street"
->>>>>>> 6a9b8aec2e79e31ea5e412d3f5082092c2acc27b
     },
     {
         "Status" : "LFH",

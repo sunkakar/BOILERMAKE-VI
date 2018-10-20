@@ -7,7 +7,7 @@ class ElementDetail extends Component
     {
       return (
             <div className="element-detail">
-            Element-Detail
+            <p>Element-Detail</p>
             </div>
       );
     }
