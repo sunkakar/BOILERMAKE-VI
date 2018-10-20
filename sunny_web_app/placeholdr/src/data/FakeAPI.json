@@ -9,11 +9,8 @@
         "MoveInDate":"08/01/2018",
         "Duration":12,
         "Car":false,
-<<<<<<< HEAD
-        "Address": "1234 Happy St."
-=======
-        "Address":"Walnut Street"
->>>>>>> 6a9b8aec2e79e31ea5e412d3f5082092c2acc27b
+        "Address": "1234 Happy St.",
+        "Rent": "$450"
     },
     {
         "Status" : "LFH",
@@ -25,7 +22,8 @@
         "MoveInDate":"08/01/2018",
         "Duration":12,
         "Car":false,
-        "Address": "1234 Happy St."
+        "Address": "1234 Happy St.",
+        "Rent":"$800"
     },
     {
         "Status" : "LFR",
@@ -37,7 +35,8 @@
         "MoveInDate":"08/01/2018",
         "Duration":12,
         "Car":false,
-        "Address": "4321 Sad St."
+        "Address": "4321 Sad St.",
+        "Rent": "$15"
     },
     {
         "Status" : "LFH",
@@ -49,6 +48,7 @@
         "MoveInDate":"08/01/2018",
         "Duration":12,
         "Car":false,
-        "Address": "4545 Lonely Ln."
+        "Address": "4545 Lonely Ln.",
+        "Rent": "$625"
     }
 ]
