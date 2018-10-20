@@ -8,12 +8,8 @@
         "MoveInDate":"08/01/2018",
         "Duration":12,
         "Car":false,
-<<<<<<< HEAD
-        "Address":"Walnut Street"
-=======
-        "Address": "1234 Happy St.",
-        "Rent": "$450"
->>>>>>> 5e1264f91d331ef97d4586103c34a10a20f71014
+        "Address":"Walnut Street",
+        "Rent": "$385"
     },
     {
         "Status" : "LFH",
