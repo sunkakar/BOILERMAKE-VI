@@ -1,0 +1,46 @@
+[
+   {
+        "Status" : "LFR",
+        "firstName":"Jim",
+        "lastName":"Harper",
+        "Age":30,
+        "InNeedOf":"Housing",
+        "Type": "Apartment",
+        "MoveInDate":"08/01/2018",
+        "Duration":12,
+        "Car":false
+    },
+    {
+        "Status" : "LFH",
+        "firstName":"Jim2",
+        "lastName":"Harper",
+        "Age":30,
+        "InNeedOf":"Housing",
+        "Type": "House",
+        "MoveInDate":"08/01/2018",
+        "Duration":12,
+        "Car":false
+    },
+    {
+        "Status" : "LFR",
+        "firstName":"Jim3",
+        "lastName":"Harper",
+        "Age":30,
+        "InNeedOf":"Housing",
+        "Type": "Closet",
+        "MoveInDate":"08/01/2018",
+        "Duration":12,
+        "Car":false
+    },
+    {
+        "Status" : "LFH",
+        "firstName":"Jim4",
+        "lastName":"Harper",
+        "Age":30,
+        "InNeedOf":"Housing",
+        "Type": "House",
+        "MoveInDate":"08/01/2018",
+        "Duration":12,
+        "Car":false
+    }
+]
