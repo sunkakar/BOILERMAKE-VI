@@ -13,8 +13,7 @@ class ElementListItem extends Component
             return ( 
             <li>
               <h2>{user.Type}</h2>
-              <h4>Rent per month: {user.Rent}</h4>
-              <h5>{user.firstName} {user.lastName}</h5>
+              <h4>$/month: {user.Rent}</h4>
               <h5>{user.Address}</h5>
             </li>);      
           })}
