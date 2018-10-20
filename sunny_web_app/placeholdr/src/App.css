@@ -1,3 +1,7 @@
+body{
+  background-color: lightcyan;
+}
+
 .App {
   text-align: center;
 }
@@ -9,7 +13,7 @@
   min-width: 100%;
   font-size: calc(10px + 2vmin);
   color: white;
-  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  box-shadow: 0 0 30px rgba(0,0,0,0.4);
 }
 
 .Name {
@@ -39,6 +43,7 @@
 .element-content {
   top: 10vh;
   min-height: 90vh;
+  width: 50%;
   background-color: lightcyan;
 }
 
@@ -53,11 +58,10 @@
 }
 
 .element-list-item li{
-  display: block;
-  padding: 10px;
+  display: inherit;
+  padding: 0px 0px 10px 0px;
   color: black;
   font-size: 1em;
-
 }
 
 .element-list-item li:hover{
