@@ -9,7 +9,7 @@ class ElementList extends Component
     {
       return (
             <div className="element-list-item">
-            <ElementListItem/>
+              <ElementListItem/>
             </div>
       );
     }
