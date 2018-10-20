@@ -8,7 +8,8 @@
         "Type": "Apartment",
         "MoveInDate":"08/01/2018",
         "Duration":12,
-        "Car":false
+        "Car":false,
+        "Address": "1234 Happy St."
     },
     {
         "Status" : "LFH",
@@ -19,7 +20,8 @@
         "Type": "House",
         "MoveInDate":"08/01/2018",
         "Duration":12,
-        "Car":false
+        "Car":false,
+        "Address": "1234 Happy St."
     },
     {
         "Status" : "LFR",
@@ -30,7 +32,8 @@
         "Type": "Closet",
         "MoveInDate":"08/01/2018",
         "Duration":12,
-        "Car":false
+        "Car":false,
+        "Address": "4321 Sad St."
     },
     {
         "Status" : "LFH",
@@ -41,6 +44,7 @@
         "Type": "House",
         "MoveInDate":"08/01/2018",
         "Duration":12,
-        "Car":false
+        "Car":false,
+        "Address": "4545 Lonely Ln."
     }
 ]

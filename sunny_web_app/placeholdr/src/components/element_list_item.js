@@ -14,6 +14,7 @@ class ElementListItem extends Component
             <li>
               <h2>{user.Type}</h2>
               <h5>{user.firstName} {user.lastName}</h5>
+              <h5>{user.Address}</h5>
             </li>);      
           })}
 
