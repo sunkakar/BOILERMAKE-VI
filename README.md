@@ -5,6 +5,7 @@
 - Web Application
     - Using: ReactJS 
 ## Max Hansen 
-
+- Android Application
+    - Using: Java
 
 
