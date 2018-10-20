@@ -1,3 +1,8 @@
+Most Recent Version
+- Added button functionality
+- Created 2 separate activities, 1 to list people and 1 to list houses
+
+
 Current Goals
-- Add button functionality
-- Create new main scene (scrolling)
+- Add app icon
+- Add aditional information once a list item has been selected
