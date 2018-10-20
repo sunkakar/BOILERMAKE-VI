@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import '../App.css';
 import ElementList from './element_list.js';
 import ElementDetail from './element_detail.js';
+import './element_content.css';
+
+
 class ElementContent extends Component 
 {
     render() 

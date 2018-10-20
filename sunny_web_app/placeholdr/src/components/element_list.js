@@ -8,7 +8,7 @@ class ElementList extends Component
     render() 
     {
       return (
-            <div className="element-list">
+            <div className="element-list-item">
             <ElementListItem/>
             </div>
       );
