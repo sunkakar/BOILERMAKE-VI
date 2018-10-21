@@ -7,18 +7,20 @@ class ElementListItem extends Component
     render() 
     {
       return (
-        <ul class="element-list-item">
-
-          {UserData.map((user,index)=>{
+        <div className="element-list-item">
+          {
+            UserData.map((user,index)=>{
             return ( 
-            <li>
+              <li key={index}>
               <h2>{user.Type}</h2>
               <h4>$/month: {user.Rent}</h4>
               <h5>{user.Address}</h5>
-            </li>);      
-          })}
-
-        </ul>
+              </li> 
+              );      
+            }
+          )
+          }
+        </div>
       );
     }
 }

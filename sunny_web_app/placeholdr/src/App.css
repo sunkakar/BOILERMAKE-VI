@@ -43,42 +43,42 @@ body{
 .element-content {
   top: 10vh;
   min-height: 90vh;
-  width: 50%;
+  width: 100%;
   background-color: lightcyan;
+  display: flex;
 }
 
 /* ELEMENT LIST */
 
 .element-list{
-  display: block;
-  background: grey;
-  width: 100%;
-  height: 100vh;
+  flex: 0 0 50%;
+  background:lightcyan;
+  width: 50%;
   padding: 20px 10px;
 }
 
 .element-list-item li{
   display: inherit;
-  padding: 0px 0px 10px 0px;
+  padding: 10px 10px 10px 10px;
   color: black;
   font-size: 1em;
 }
+
 
 .element-list-item li:hover{
   background-color: lightgray;
   color:#281c40;
   -webkit-transition-duration: 0.4s; /* For Safari */
   transition-duration: 0.4s;
-  border-radius: 10px;
+  border-radius: 50px 0px 0px 50px;
   cursor: pointer;
 }
 
 /* ELEMENT DETAIL */
 
 .element-detail{
-  display: block;
-  background: black;
-  float: right;
+  flex: 1;
+  
 }
 
 /* RESPONSIVE SETTINGS */

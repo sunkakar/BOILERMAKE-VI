@@ -6,9 +6,7 @@ class ElementDetail extends Component
     render() 
     {
       return (
-            <div className="element-detail">
             <p>Element-Detail</p>
-            </div>
       );
     }
 }

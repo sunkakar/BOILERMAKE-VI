@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../App.css';
 import ElementList from './element_list.js';
 import ElementDetail from './element_detail.js';
-import './element_content.css';
 
 
 class ElementContent extends Component 
@@ -11,12 +10,8 @@ class ElementContent extends Component
     {
       return (
           <div className="element-content">
-            <div className="element-list">
-              <ElementList/>
-            </div>
-            <div className="element-detail">
-              <ElementDetail/>
-            </div>
+              <div className="element-list"><ElementList/></div>
+              <div className="element-detail"><ElementDetail/></div>
           </div>
       );
     }
