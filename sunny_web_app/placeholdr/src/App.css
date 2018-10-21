@@ -1,19 +1,18 @@
-body{
-  background-color: lightcyan;
-}
-
 .App {
   text-align: center;
 }
 
 .App-header {
   background-color: #281c40;
+  top: 0;
   min-height: 10vh;
-  display: block;
+  display: flex;
   min-width: 100%;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: sticky;
   box-shadow: 0 0 30px rgba(0,0,0,0.4);
+  z-index: 100;
 }
 
 .Name {
@@ -51,34 +50,45 @@ body{
 /* ELEMENT LIST */
 
 .element-list{
-  flex: 0 0 50%;
   background:lightcyan;
-  width: 50%;
-  padding: 20px 10px;
+  width: 30%;
+  padding: 0px 0px 0px 0px;
 }
 
 .element-list-item li{
-  display: inherit;
+  display: inline-block;
   padding: 10px 10px 10px 10px;
+  width: 100%;
   color: black;
-  font-size: 1em;
 }
-
 
 .element-list-item li:hover{
   background-color: lightgray;
   color:#281c40;
   -webkit-transition-duration: 0.4s; /* For Safari */
   transition-duration: 0.4s;
-  border-radius: 50px 0px 0px 50px;
+  border-radius: 25px 0px 0px 25px;
+  box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.4);
   cursor: pointer;
+}
+
+.Inline{
+  display: inline;
+  font-weight: lighter;
+  margin: 0;
+  line-height: 5px;
 }
 
 /* ELEMENT DETAIL */
 
 .element-detail{
   flex: 1;
-  
+  position: fixed;
+  left:30%;
+  width: 70%;
+  min-height: 90vh;
+  background-color: lightgray;
+  z-index: 10;
 }
 
 /* RESPONSIVE SETTINGS */

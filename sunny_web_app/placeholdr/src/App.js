@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header.js';
-import ElementList from './components/element_list.js'; 
+import ElementContent from './components/element_content.js';
+
   class App extends Component {
     constructor(props)
     {
@@ -12,7 +13,7 @@ import ElementList from './components/element_list.js';
     return (
         <div className="content-wrapper">
         <Header/>
-        <ElementList/>
+        <ElementContent/>
         </div>
     );
   }
