@@ -1,19 +1,18 @@
-body{
-  background-color: lightcyan;
-}
-
 .App {
   text-align: center;
 }
 
 .App-header {
   background-color: #281c40;
+  top: 0;
   min-height: 10vh;
-  display: block;
+  display: flex;
   min-width: 100%;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: sticky;
   box-shadow: 0 0 30px rgba(0,0,0,0.4);
+  z-index: 100;
 }
 
 .Name {
@@ -43,25 +42,24 @@ body{
 .element-content {
   top: 10vh;
   min-height: 90vh;
-  width: 50%;
+  width: 100%;
   background-color: lightcyan;
+  display: flex;
 }
 
 /* ELEMENT LIST */
 
 .element-list{
-  display: block;
-  background: grey;
-  width: 100%;
-  height: 100vh;
-  padding: 20px 10px;
+  background:lightcyan;
+  width: 30%;
+  padding: 0px 0px 0px 0px;
 }
 
 .element-list-item li{
-  display: inherit;
-  padding: 0px 0px 10px 0px;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
   color: black;
-  font-size: 1em;
 }
 
 .element-list-item li:hover{
@@ -69,16 +67,28 @@ body{
   color:#281c40;
   -webkit-transition-duration: 0.4s; /* For Safari */
   transition-duration: 0.4s;
-  border-radius: 10px;
+  border-radius: 25px 0px 0px 25px;
+  box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.4);
   cursor: pointer;
+}
+
+.Inline{
+  display: inline;
+  font-weight: lighter;
+  margin: 0;
+  line-height: 5px;
 }
 
 /* ELEMENT DETAIL */
 
 .element-detail{
-  display: block;
-  background: black;
-  float: right;
+  flex: 1;
+  position: fixed;
+  left:30%;
+  width: 70%;
+  min-height: 90vh;
+  background-color: lightgray;
+  z-index: 10;
 }
 
 /* RESPONSIVE SETTINGS */

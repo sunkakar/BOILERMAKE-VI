@@ -9,7 +9,7 @@
         "Duration":12,
         "Car":false,
         "Address":"Walnut Street",
-        "Rent": "$385"
+        "Rent": "385"
     },
     {
         "Status" : "LFH",
@@ -21,7 +21,7 @@
         "Duration":12,
         "Car":false,
         "Address": "1234 Happy St.",
-        "Rent":"$800"
+        "Rent":"800"
     },
     {
         "Status" : "LFR",
@@ -33,7 +33,7 @@
         "Duration":12,
         "Car":false,
         "Address": "4321 Sad St.",
-        "Rent": "$15"
+        "Rent": "15"
     },
     {
         "Status" : "LFH",
@@ -45,7 +45,7 @@
         "Duration":12,
         "Car":false,
         "Address": "4545 Lonely Ln.",
-        "Rent": "$625"
+        "Rent": "625"
     },
     {
         "Status" : "LFR",
@@ -57,7 +57,7 @@
         "Duration":12,
         "Car":false,
         "Address": "1234 Happy St.",
-        "Rent": "$450"
+        "Rent": "450"
     },
     {
         "Status" : "LFH",
@@ -69,7 +69,7 @@
         "Duration":12,
         "Car":false,
         "Address": "1234 Happy St.",
-        "Rent":"$800"
+        "Rent":"800"
     },
     {
         "Status" : "LFR",
@@ -81,7 +81,7 @@
         "Duration":12,
         "Car":false,
         "Address": "4321 Sad St.",
-        "Rent": "$250"
+        "Rent": "250"
     },
     {
         "Status" : "LFH",
@@ -93,6 +93,6 @@
         "Duration":12,
         "Car":false,
         "Address": "4545 Lonely Ln.",
-        "Rent": "$425"
+        "Rent": "425"
     }
 ]

@@ -1,24 +1,26 @@
 import React, { Component } from 'react';
 import '../App.css';
 import UserData from '../data/FakeAPI.json';
+import Home from '../home_icon.svg';
 
 class ElementListItem extends Component 
 {
     render() 
     {
       return (
-        <ul class="element-list-item">
-
-          {UserData.map((user,index)=>{
+        <div className="element-list-item">
+          {
+            UserData.map((user,index)=>{
             return ( 
-            <li>
-              <h2>{user.Type}</h2>
-              <h4>$/month: {user.Rent}</h4>
-              <h5>{user.Address}</h5>
-            </li>);      
-          })}
-
-        </ul>
+              <li className="Inline" key={index}>
+              <div ><img src={Home}/><h2>{user.Type}</h2><h5>{user.Address}</h5></div>
+              <h4>${user.Rent}/month</h4>
+              </li> 
+              );      
+            }
+          )
+          }
+        </div>
       );
     }
 }
