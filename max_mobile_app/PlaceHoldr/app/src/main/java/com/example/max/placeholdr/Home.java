@@ -1,25 +1,25 @@
 package com.example.max.placeholdr;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class Default extends AppCompatActivity{
+public class Home extends AppCompatActivity{
 
-    private Button houseButton;
-    private Button personButton;
-    private Button signInButton;
+    private Button houseButton2;
+    private Button personButton2;
+    private Button signOut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_default);
+        setContentView(R.layout.activity_home);
 
 
-        personButton = findViewById(R.id.personButton);
-        personButton.setOnClickListener(new View.OnClickListener()
+        personButton2 = findViewById(R.id.personButton);
+        personButton2.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
@@ -29,20 +29,10 @@ public class Default extends AppCompatActivity{
 
         });
 
-        signInButton = findViewById(R.id.signIn);
-        signInButton.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                openSignInActivity();
-            }
-
-        });
 
 
-        houseButton = findViewById(R.id.houseButton);
-        houseButton.setOnClickListener(new View.OnClickListener()
+        houseButton2 = findViewById(R.id.houseButton);
+        houseButton2.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
@@ -50,11 +40,24 @@ public class Default extends AppCompatActivity{
                 openListingActivity("LFH");
             }
         });
+
+        signOut = findViewById(R.id.signOut);
+        signOut.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                openDefaultActivity();
+            }
+         });
+
+
+
     }
 
     public void openListingActivity(String lf)
     {
-       Intent intent = new Intent();
+        Intent intent = new Intent();
         if(lf.equals("LFH"))
         {
             intent = new Intent(this, Listings.class);
@@ -66,14 +69,10 @@ public class Default extends AppCompatActivity{
         startActivity(intent);
     }
 
-    public void openSignInActivity()
+    public void openDefaultActivity()
     {
-        Intent intent = new Intent();
-
-
-            intent = new Intent(this, signIn.class);
-
-        startActivity(intent);
+        startActivity(new Intent(this, Default.class));
     }
+
 
 }
