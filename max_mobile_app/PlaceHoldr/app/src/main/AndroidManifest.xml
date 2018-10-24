@@ -20,7 +20,8 @@
         <activity android:name=".Listings2" />
         <activity android:name=".signIn" />
         <activity android:name=".SignUp" />
-        <activity android:name=".Home"></activity>
+        <activity android:name=".Home" />
+        <activity android:name=".ViewItem"></activity>
     </application>
 
 </manifest>

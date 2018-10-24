@@ -1,7 +1,10 @@
 package com.example.max.placeholdr;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -28,6 +31,30 @@ public class Listings extends AppCompatActivity {
         ListView mainListView = (ListView) findViewById(R.id.mainList);
         mainListView.setAdapter(mainAdapter);
 
+        mainListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id)
+            {
+                ListItem selection = (ListItem) parent.getItemAtPosition(position);
+                openViewActivity(selection);
+            }
+        });
+
 
     }
+
+
+    public void openViewActivity(ListItem user)
+    {
+        Intent i = new Intent(this, ViewItem.class);
+
+        i.putExtra("user", user);
+
+        startActivity(i);
+    }
+
+
+
+
+
+
 }

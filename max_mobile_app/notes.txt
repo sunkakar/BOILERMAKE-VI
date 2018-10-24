@@ -1,7 +1,7 @@
 Most Recent Version
-- Added button functionality
-- Created 2 separate activities, 1 to list people and 1 to list houses
--Added app icon
+- Added log in option
+- Added Sign up option
+
 
 Current Goals
 - Add aditional information once a list item has been selected

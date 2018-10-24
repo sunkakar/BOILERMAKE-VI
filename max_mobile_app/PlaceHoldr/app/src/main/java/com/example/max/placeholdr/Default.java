@@ -18,6 +18,19 @@ public class Default extends AppCompatActivity{
         setContentView(R.layout.activity_default);
 
 
+        ListItem user1 = new ListItem("Max", "Hansen", "hansenmax@live.com", "12341234", 'M', 20);
+        ListItem user2 = new ListItem("Jane", "Smith","email1@email.com", "12341234", 'F',22);
+        ListItem user3 = new ListItem("Mick", "Jones","email2@email.com", "12341234", 'M', 19);
+        ListItem user4 = new ListItem("Bob", "Ross","email3@email.com", "12341234", 'M', 54);
+
+        final ListItem[] allUsers = {user1, user2, user3, user4};
+
+
+
+
+
+
+
         personButton = findViewById(R.id.personButton);
         personButton.setOnClickListener(new View.OnClickListener()
         {
@@ -35,7 +48,7 @@ public class Default extends AppCompatActivity{
             @Override
             public void onClick(View v)
             {
-                openSignInActivity();
+                openSignInActivity(allUsers);
             }
 
         });
@@ -66,10 +79,11 @@ public class Default extends AppCompatActivity{
         startActivity(intent);
     }
 
-    public void openSignInActivity()
+    public void openSignInActivity(ListItem[] allUsers)
     {
         Intent intent = new Intent();
 
+            intent.putExtra("userList", allUsers);
 
             intent = new Intent(this, signIn.class);
 
